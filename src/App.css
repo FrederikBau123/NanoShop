@@ -1,0 +1,90 @@
+.everything{
+  overflow:scroll;
+  background-color: rgb(55,94,173);
+  padding-bottom: 500px;
+}
+.items{
+  height:100px;
+  padding-left: 21%;
+}
+.marginleft{
+  margin-left: 25%;
+}
+.background1{
+  background-color: rgb(68,114,200) !important;
+}
+.background2{
+  background-color: rgb(55,94,173) !important;
+}
+.imgitem{
+  display: inline;
+}
+p{
+  text-align: center;
+  font-weight: bold;
+}
+
+.abs{
+  position:absolute;
+  left:50%;
+}
+.nanoimg1{
+  position:relative;
+  right: 156px;
+}
+.nanoimg2{
+  position:relative;
+  left: 81px;
+  bottom: 73px;
+}
+h1{
+  display: inline;
+  color:red;
+  line-height: -50px;
+  position: relative;
+  bottom: 30px;
+  left: 45px;
+  font-size: 1.5em
+}
+.fixEthereal1{
+  left:38px !important;
+}
+.fixEthereal2{
+  left:82px !important;
+}
+h2{
+
+}
+.priceText{
+  display: inline;
+  position: relative;
+  bottom: 30px;
+  left: 90px;
+  font-size: 1.5em;
+}
+.buy2{
+  text-decoration: none;
+  display: inline;
+  padding:18px;
+  background-color: rgb(68,114,200) !important;
+  border: 1px solid;
+  font-weight: bold;
+  position:relative;
+  bottom:33px;
+  left:132px;
+  border-radius:12px;
+  color: white;
+}
+.buy1{
+  text-decoration: none;
+  display: inline;
+  background-color: rgb(55,94,173) !important;
+  padding:18px;
+  border: 1px solid;
+  font-weight: bold;
+  position:relative;
+  bottom:33px;
+  left:132px;
+  border-radius:12px;
+  color: white;
+}
