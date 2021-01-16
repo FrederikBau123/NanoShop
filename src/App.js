@@ -1,95 +1,214 @@
-import soultrader from './Soultrader.png';
-import landro from './Landro.png'
-import book from './Book.png'
-import dragon from './DragonKite.png'
-import fish from './Fish.png'
-import grell from './Grell.png'
-import legioneye from './LegionEye.png'
-import nightsaber from './Nightsaber.png'
+import soultrader from './soultrader.jpg';
+import landro from './landros.jpg'
+import book from './book.jpg'
+import dragon from './dragonkite.jpg'
+import fish from './fish.jpg'
+import grell from './grell.jpg'
+import legioneye from './evileye.jpg'
+import nightsaber from './jungletiger.jpg'
 import nano from './Nano.png'
+import inventory from './Capture.PNG'
 import './App.css';
+import React, { useState } from 'react';
+import ReactDOM from 'react-dom';
 
 function App() {
   return (
     <div class="everything">
-      <div>
-        <div class="abs">
-        <img class="nanoimg1"src={nano} width="64" height="32" />
+
+
+      <div class="MenuBar">
+
+        <div class="aboutInfo">
+           ABOUT US
         </div>
-        <p>
-          World of Warcraft
-        </p>
-        <p>
-          NANO Shop
-        </p>
-        <div class="abs">
-        <img class="nanoimg2"src={nano} width="64" height="32" />
+
+        <div class="titleBox">
+          <img class="nanoLogo" src={nano} />
+          <div class="Title">
+            <div class="TitleText">
+              World of Warcraft
+            </div>
+            <div class="TitleText">
+              NANO Shop
+            </div>
+          </div>
+            <img class="nanoLogo" src={nano} />
         </div>
+
+        <div class="contactInfo">
+           CONTACT US
+        </div>
+
       </div>
-      <div class="items background1">
-        <a href="https://www.wowhead.com/item=38050/soul-trader-beacon" target="_blank">
-          <img class="imgitem" src={soultrader} width="308" height="95"/>
-        </a>
-        <h1 class="stockText fixEthereal1">1 LEFT IN STOCK</h1>
-        <h2 class="priceText fixEthereal2"> PRICE: $100</h2>
-        <a class="buy1" href="https://nowpayments.io/payment/?iid=5185635713" target="_blank"> Pay with NANO</a>
-      </div>
-      <div class="items background2">
-        <a href="https://www.wowhead.com/item=34493/dragon-kite" target="_blank">
-          <img class="imgitem" src={dragon} width="300" height="90" />
-        </a>
-        <h1 class="stockText">1 LEFT IN STOCK</h1>
-        <h2 class="priceText"> PRICE: $75 </h2>
-        <a class="buy2" href="https://nowpayments.io/payment/?iid=5914552463" target="_blank"> Pay with NANO</a>
-      </div>
-      <div class="items background1">
-        <a href="https://www.wowhead.com/item=68841/nightsaber-cub" target="_blank">
-          <img class="imgitem" src={nightsaber} width="300" height="90" />
-        </a>
-        <h1 class="stockText">2 LEFT IN STOCK</h1>
-        <h2 class="priceText"> PRICE: $25 </h2>
-        <a class="buy1" href="https://nowpayments.io/payment/?iid=4512806064" target="_blank"> Pay with NANO</a>
-      </div>
-      <div class="items background2">
-        <a href="https://www.wowhead.com/item=68840/landros-lichling" target="_blank">
-          <img class="imgitem" src={landro} width="300" height="90" />
-        </a>
-        <h1 class="stockText">3 LEFT IN STOCK</h1>
-        <h2 class="priceText"> PRICE: $25 </h2>
-        <a class="buy2" href="https://nowpayments.io/payment/?iid=5508490419" target="_blank"> Pay with NANO</a>
-      </div>
-      <div class="items background1">
-        <a href="https://www.wowhead.com/item=93669/gusting-grimoire" target="_blank">
-          <img class="imgitem"src={book} width="300" height="90" />
-        </a>
-        <h1 class="stockText">3 LEFT IN STOCK</h1>
-        <h2 class="priceText"> PRICE: $15 </h2>
-        <a class="buy1" href="https://nowpayments.io/payment/?iid=5232693282" target="_blank"> Pay with NANO</a>
-      </div>
-      <div class="items background2">
-        <a href="https://www.wowhead.com/item=71624/purple-puffer" target="_blank">
-          <img class="imgitem" src={fish} width="300" height="90" />
-        </a>
-        <h1 class="stockText">1 LEFT IN STOCK</h1>
-        <h2 class="priceText"> PRICE: $20 </h2>
-        <a class="buy2" href="https://nowpayments.io/payment/?iid=5035448460" target="_blank"> Pay with NANO</a>
-      </div>
-      <div class="items background1">
-        <a href="https://www.wowhead.com/item=79744/eye-of-the-legion" target="_blank">
-          <img class="imgitem" src={legioneye} width="300" height="90" />
-        </a>
-        <h1 class="stockText">1 LEFT IN STOCK</h1>
-        <h2 class="priceText"> PRICE: $20 </h2>
-        <a class="buy1" href="https://nowpayments.io/payment/?iid=6415305870" target="_blank"> Pay with NANO</a>
-      </div>
-      <div class="items background2">
-        <a href="https://www.wowhead.com/item=72134/grell-moss" target="_blank">
-          <img class="imgitem" src={grell} width="300" height="90" />
-        </a>
-        <h1 class="stockText">1 LEFT IN STOCK</h1>
-        <h2 class="priceText"> PRICE: $20 </h2>
-        <a class="buy2" href="https://nowpayments.io/payment/?iid=5114408936" target="_blank"> Pay with NANO</a>
-      </div>
+
+
+      <div class="allItems">
+
+        <div class="items background1">
+          <div class="product">
+            <a href="https://www.wowhead.com/item=38050/soul-trader-beacon" target="_blank">
+              <img class="imgitem" src={soultrader} />
+            </a>
+            <div class="stockText">1 IN STOCK</div>
+          </div>
+          <div class="itemInfo">
+            <div class="itemName">Landro's Lichling</div>
+            <div class="itemLevel">Item Level 1</div>
+            <div class="itemBinds">Binds when picked up</div>
+            <div class="itemUnique">Unique</div>
+            <div class="itemUse">Use: Teaches you how to summon this companion.</div>
+          </div>
+          <div class="payment">
+            <div class="priceText"> $100</div>
+            <a class="buy1" href="https://nowpayments.io/payment/?iid=5185635713" target="_blank"> Pay with NANO</a>
+          </div>
+        </div>
+
+        <div class="items background2">
+          <div class="product">
+            <a href="https://www.wowhead.com/item=34493/dragon-kite" target="_blank">
+              <img class="imgitem" src={dragon} />
+            </a>
+            <div class="stockText">1 IN STOCK</div>
+          </div>
+          <div class="itemInfo">
+            <div class="itemName">Landro's Lichling</div>
+            <div class="itemLevel">Item Level 1</div>
+            <div class="itemBinds">Binds when picked up</div>
+            <div class="itemUnique">Unique</div>
+            <div class="itemUse">Use: Teaches you how to summon this companion.</div>
+          </div>
+          <div class="payment">
+            <div class="priceText"> $75 </div>
+            <a class="buy2" href="https://nowpayments.io/payment/?iid=5914552463" target="_blank"> Pay with NANO</a>
+          </div>
+        </div>
+
+
+        <div class="items background1">
+          <div class="product">
+            <a href="https://www.wowhead.com/item=68841/nightsaber-cub" target="_blank">
+              <img class="imgitem" src={nightsaber} />
+            </a>
+            <div class="stockText">2 IN STOCK</div>
+          </div>
+          <div class="itemInfo">
+            <div class="itemName">Landro's Lichling</div>
+            <div class="itemLevel">Item Level 1</div>
+            <div class="itemBinds">Binds when picked up</div>
+            <div class="itemUnique">Unique</div>
+            <div class="itemUse">Use: Teaches you how to summon this companion.</div>
+          </div>
+          <div class="payment">
+            <div class="priceText"> $25 </div>
+            <a class="buy1" href="https://nowpayments.io/payment/?iid=4512806064" target="_blank"> Pay with NANO</a>
+          </div>
+        </div>
+
+        <div class="items background2">
+          <div class="product">
+            <a href="https://www.wowhead.com/item=68840/landros-lichling" target="_blank">
+              <img class="imgitem" src={landro}  />
+            </a>
+            <div class="stockText">3 IN STOCK</div>
+          </div>
+          <div class="itemInfo">
+            <div class="itemName">Landro's Lichling</div>
+            <div class="itemLevel">Item Level 1</div>
+            <div class="itemBinds">Binds when picked up</div>
+            <div class="itemUnique">Unique</div>
+            <div class="itemUse">Use: Teaches you how to summon this companion.</div>
+          </div>
+          <div class="payment">
+            <div class="priceText"> $25 </div>
+            <a class="buy2" href="https://nowpayments.io/payment/?iid=5508490419" target="_blank"> Pay with NANO</a>
+          </div>
+        </div>
+
+        <div class="items background1">
+          <div class="product">
+            <a href="https://www.wowhead.com/item=93669/gusting-grimoire" target="_blank">
+              <img class="imgitem"src={book}  />
+            </a>
+            <div class="stockText">3 IN STOCK</div>
+          </div>
+          <div class="itemInfo">
+            <div class="itemName">Landro's Lichling</div>
+            <div class="itemLevel">Item Level 1</div>
+            <div class="itemBinds">Binds when picked up</div>
+            <div class="itemUnique">Unique</div>
+            <div class="itemUse">Use: Teaches you how to summon this companion.</div>
+          </div>
+          <div class="payment">
+            <div class="priceText"> $15 </div>
+            <a class="buy1" href="https://nowpayments.io/payment/?iid=5232693282" target="_blank"> Pay with NANO</a>
+          </div>
+        </div>
+
+        <div class="items background2">
+          <div class="product">
+            <a href="https://www.wowhead.com/item=71624/purple-puffer" target="_blank">
+              <img class="imgitem" src={fish}/>
+            </a>
+            <div class="stockText">1 IN STOCK</div>
+          </div>
+          <div class="itemInfo">
+            <div class="itemName">Landro's Lichling</div>
+            <div class="itemLevel">Item Level 1</div>
+            <div class="itemBinds">Binds when picked up</div>
+            <div class="itemUnique">Unique</div>
+            <div class="itemUse">Use: Teaches you how to summon this companion.</div>
+          </div>
+          <div class="payment">
+            <div class="priceText"> $20 </div>
+            <a class="buy2" href="https://nowpayments.io/payment/?iid=5035448460" target="_blank"> Pay with NANO</a>
+          </div>
+        </div>
+
+        <div class="items background1">
+          <div class="product">
+            <a href="https://www.wowhead.com/item=79744/eye-of-the-legion" target="_blank">
+              <img class="imgitem" src={legioneye} />
+            </a>
+            <div class="stockText">1 IN STOCK</div>
+          </div>
+          <div class="itemInfo">
+            <div class="itemName">Landro's Lichling</div>
+            <div class="itemLevel">Item Level 1</div>
+            <div class="itemBinds">Binds when picked up</div>
+            <div class="itemUnique">Unique</div>
+            <div class="itemUse">Use: Teaches you how to summon this companion.</div>
+          </div>
+          <div class="payment">
+            <div class="priceText"> $20 </div>
+            <a class="buy1" href="https://nowpayments.io/payment/?iid=6415305870" target="_blank"> Pay with NANO</a>
+          </div>
+        </div>
+
+        <div class="items background2">
+          <div class="product">
+            <a href="https://www.wowhead.com/item=72134/grell-moss" target="_blank">
+              <img class="imgitem" src={grell} />
+            </a>
+            <div class="stockText">1 IN STOCK</div>
+          </div>
+          <div class="itemInfo">
+            <div class="itemName">Landro's Lichling</div>
+            <div class="itemLevel">Item Level 1</div>
+            <div class="itemBinds">Binds when picked up</div>
+            <div class="itemUnique">Unique</div>
+            <div class="itemUse">Use: Teaches you how to summon this companion.</div>
+          </div>
+          <div class="payment">
+            <div class="priceText"> $20 </div>
+            <a class="buy2" href="https://nowpayments.io/payment/?iid=5114408936" target="_blank"> Pay with NANO</a>
+          </div>
+        </div>
+
+    </div>
+
+
     </div>
   );
 }

@@ -1,11 +1,15 @@
+
+
+
 .everything{
   overflow:scroll;
   background-color: rgb(55,94,173);
   padding-bottom: 500px;
 }
 .items{
-  height:100px;
-  padding-left: 21%;
+  padding-top:8px;
+  padding-left:8px;
+  display: flex;
 }
 .marginleft{
   margin-left: 25%;
@@ -17,74 +21,117 @@
   background-color: rgb(55,94,173) !important;
 }
 .imgitem{
+  width:70%;
+  max-width: 96px;
+}
+.nanoLogo{
+  display: inline;
+  width:10%;
+  max-width: 64px;
+}
+.transform{
+  transform: rotate(90deg);
+}
+.Title{
+  display: inline-block;
+  margin:6px;
+}
+.MenuBar{
+  width: 100%;
+  text-align: center
+}
+.aboutInfo{
+  display: inline;
+  font-size: clamp(10px, 2.5vw, 26px);
+  margin-right: 5%
+}
+.contactInfo{
+  display: inline;
+  font-size: clamp(10px, 2.5vw, 24px);
+  margin-left: 5%
+}
+.titleBox{
   display: inline;
 }
 p{
   text-align: center;
   font-weight: bold;
 }
-
-.abs{
-  position:absolute;
+.left50{
   left:50%;
 }
-.nanoimg1{
-  position:relative;
-  right: 156px;
+.abs{
+  position:absolute;
 }
-.nanoimg2{
-  position:relative;
-  left: 81px;
-  bottom: 73px;
-}
-h1{
-  display: inline;
-  color:red;
-  line-height: -50px;
-  position: relative;
-  bottom: 30px;
-  left: 45px;
-  font-size: 1.5em
-}
-.fixEthereal1{
-  left:38px !important;
-}
-.fixEthereal2{
-  left:82px !important;
-}
-h2{
 
+.stockText{
+    font-size: clamp(8px, 1.5vw, 18px);
 }
 .priceText{
-  display: inline;
-  position: relative;
-  bottom: 30px;
-  left: 90px;
-  font-size: 1.5em;
+  font-size: clamp(8px, 1.5vw, 18px);
+  text-align: center;
+  margin-bottom: 4px;
 }
 .buy2{
   text-decoration: none;
-  display: inline;
-  padding:18px;
   background-color: rgb(68,114,200) !important;
   border: 1px solid;
   font-weight: bold;
-  position:relative;
-  bottom:33px;
-  left:132px;
   border-radius:12px;
   color: white;
+    padding:2px;
+  font-size: clamp(8px, 1.5vw, 18px);
 }
 .buy1{
   text-decoration: none;
-  display: inline;
   background-color: rgb(55,94,173) !important;
-  padding:18px;
   border: 1px solid;
   font-weight: bold;
-  position:relative;
-  bottom:33px;
-  left:132px;
   border-radius:12px;
   color: white;
+  padding:2px;
+  font-size: clamp(8px, 1.5vw, 18px);
+}
+
+.inventory{
+  position:fixed;
+  bottom: 50%;
+  right:3%;
+}
+.allItems{
+  margin-left: 8px;
+}
+
+.TitleText{
+text-align: center;
+font-size: clamp(14px, 2.5vw, 24px);
+}
+
+.product{
+}
+.payment{
+}
+
+
+.itemInfo{
+  font-size: clamp(8px, 1.5vw, 18px);
+  position:relative;
+  bottom: 4px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+.itemName{
+  color: rgb(0,112,221)
+}
+.itemLevel{
+  color: rgb(255,209,221)
+}
+.itemBinds{
+  color: white;
+}
+.itemUnique{
+  color: white;
+}
+.itemUse{
+  color: rgb(30,255,0);
 }
