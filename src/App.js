@@ -68,7 +68,7 @@ function App() {
             <div class="itemUse">Use: Teaches you how to summon this companion.</div>
           </div>
           <div class="payment">
-            <div class="priceText"> 30 NANO</div>
+            <div class="priceText"> 30 </div>
             <img class="payLogo" src={nano} width="32" height="12" />
             <button class="buy1" onClick={Message} > Pay with NANO</button>
           </div>
