@@ -53,7 +53,7 @@ function App() {
             <div class="stockText">1 IN STOCK</div>
           </div>
           <div class="itemInfo">
-            <div class="itemName">Landro's Lichling</div>
+            <div class="itemName">Soul-Trader Beacon</div>
             <div class="itemLevel">Item Level 1</div>
             <div class="itemBinds">Binds when picked up</div>
             <div class="itemUnique">Unique</div>
@@ -65,7 +65,7 @@ function App() {
           </div>
         </div>
 
-        <div class="items background2">
+        <div class="items background1">
           <div class="product">
             <a href="https://www.wowhead.com/item=34493/dragon-kite" target="_blank">
               <img class="imgitem" src={dragon} />
@@ -73,7 +73,7 @@ function App() {
             <div class="stockText">1 IN STOCK</div>
           </div>
           <div class="itemInfo">
-            <div class="itemName">Landro's Lichling</div>
+            <div class="itemName">Dragon Kite</div>
             <div class="itemLevel">Item Level 1</div>
             <div class="itemBinds">Binds when picked up</div>
             <div class="itemUnique">Unique</div>
@@ -81,7 +81,7 @@ function App() {
           </div>
           <div class="payment">
             <div class="priceText"> $75 </div>
-            <a class="buy2" href="https://nowpayments.io/payment/?iid=5914552463" target="_blank"> Pay with NANO</a>
+            <a class="buy1" href="https://nowpayments.io/payment/?iid=5914552463" target="_blank"> Pay with NANO</a>
           </div>
         </div>
 
@@ -94,7 +94,7 @@ function App() {
             <div class="stockText">2 IN STOCK</div>
           </div>
           <div class="itemInfo">
-            <div class="itemName">Landro's Lichling</div>
+            <div class="itemName">Nightsaber Cub</div>
             <div class="itemLevel">Item Level 1</div>
             <div class="itemBinds">Binds when picked up</div>
             <div class="itemUnique">Unique</div>
@@ -106,7 +106,7 @@ function App() {
           </div>
         </div>
 
-        <div class="items background2">
+        <div class="items background1">
           <div class="product">
             <a href="https://www.wowhead.com/item=68840/landros-lichling" target="_blank">
               <img class="imgitem" src={landro}  />
@@ -122,7 +122,7 @@ function App() {
           </div>
           <div class="payment">
             <div class="priceText"> $25 </div>
-            <a class="buy2" href="https://nowpayments.io/payment/?iid=5508490419" target="_blank"> Pay with NANO</a>
+            <a class="buy1" href="https://nowpayments.io/payment/?iid=5508490419" target="_blank"> Pay with NANO</a>
           </div>
         </div>
 
@@ -134,7 +134,7 @@ function App() {
             <div class="stockText">3 IN STOCK</div>
           </div>
           <div class="itemInfo">
-            <div class="itemName">Landro's Lichling</div>
+            <div class="itemName">Gusting Grimoire</div>
             <div class="itemLevel">Item Level 1</div>
             <div class="itemBinds">Binds when picked up</div>
             <div class="itemUnique">Unique</div>
@@ -146,7 +146,7 @@ function App() {
           </div>
         </div>
 
-        <div class="items background2">
+        <div class="items background1">
           <div class="product">
             <a href="https://www.wowhead.com/item=71624/purple-puffer" target="_blank">
               <img class="imgitem" src={fish}/>
@@ -154,7 +154,7 @@ function App() {
             <div class="stockText">1 IN STOCK</div>
           </div>
           <div class="itemInfo">
-            <div class="itemName">Landro's Lichling</div>
+            <div class="itemName">Purple Puffer</div>
             <div class="itemLevel">Item Level 1</div>
             <div class="itemBinds">Binds when picked up</div>
             <div class="itemUnique">Unique</div>
@@ -162,7 +162,7 @@ function App() {
           </div>
           <div class="payment">
             <div class="priceText"> $20 </div>
-            <a class="buy2" href="https://nowpayments.io/payment/?iid=5035448460" target="_blank"> Pay with NANO</a>
+            <a class="buy1" href="https://nowpayments.io/payment/?iid=5035448460" target="_blank"> Pay with NANO</a>
           </div>
         </div>
 
@@ -174,7 +174,7 @@ function App() {
             <div class="stockText">1 IN STOCK</div>
           </div>
           <div class="itemInfo">
-            <div class="itemName">Landro's Lichling</div>
+            <div class="itemName">Eye of the Legion</div>
             <div class="itemLevel">Item Level 1</div>
             <div class="itemBinds">Binds when picked up</div>
             <div class="itemUnique">Unique</div>
@@ -186,7 +186,7 @@ function App() {
           </div>
         </div>
 
-        <div class="items background2">
+        <div class="items background1">
           <div class="product">
             <a href="https://www.wowhead.com/item=72134/grell-moss" target="_blank">
               <img class="imgitem" src={grell} />
@@ -194,7 +194,7 @@ function App() {
             <div class="stockText">1 IN STOCK</div>
           </div>
           <div class="itemInfo">
-            <div class="itemName">Landro's Lichling</div>
+            <div class="itemName">Grell Moss</div>
             <div class="itemLevel">Item Level 1</div>
             <div class="itemBinds">Binds when picked up</div>
             <div class="itemUnique">Unique</div>
@@ -202,7 +202,7 @@ function App() {
           </div>
           <div class="payment">
             <div class="priceText"> $20 </div>
-            <a class="buy2" href="https://nowpayments.io/payment/?iid=5114408936" target="_blank"> Pay with NANO</a>
+            <a class="buy1" href="https://nowpayments.io/payment/?iid=5114408936" target="_blank"> Pay with NANO</a>
           </div>
         </div>
 
