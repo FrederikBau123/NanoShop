@@ -45,12 +45,11 @@ function App() {
 
       <div class="allItems">
 
-        <div class="items background1">
+        <div class="items ">
           <div class="product">
             <a href="https://www.wowhead.com/item=38050/soul-trader-beacon" target="_blank">
               <img class="imgitem" src={soultrader} />
             </a>
-            <div class="stockText">1 IN STOCK</div>
           </div>
           <div class="itemInfo">
             <div class="itemName">Soul-Trader Beacon</div>
@@ -65,12 +64,11 @@ function App() {
           </div>
         </div>
 
-        <div class="items background1">
+        <div class="items ">
           <div class="product">
             <a href="https://www.wowhead.com/item=34493/dragon-kite" target="_blank">
               <img class="imgitem" src={dragon} />
             </a>
-            <div class="stockText">1 IN STOCK</div>
           </div>
           <div class="itemInfo">
             <div class="itemName">Dragon Kite</div>
@@ -86,12 +84,11 @@ function App() {
         </div>
 
 
-        <div class="items background1">
+        <div class="items ">
           <div class="product">
             <a href="https://www.wowhead.com/item=68841/nightsaber-cub" target="_blank">
               <img class="imgitem" src={nightsaber} />
             </a>
-            <div class="stockText">2 IN STOCK</div>
           </div>
           <div class="itemInfo">
             <div class="itemName">Nightsaber Cub</div>
@@ -106,12 +103,11 @@ function App() {
           </div>
         </div>
 
-        <div class="items background1">
+        <div class="items ">
           <div class="product">
             <a href="https://www.wowhead.com/item=68840/landros-lichling" target="_blank">
               <img class="imgitem" src={landro}  />
             </a>
-            <div class="stockText">3 IN STOCK</div>
           </div>
           <div class="itemInfo">
             <div class="itemName">Landro's Lichling</div>
@@ -126,12 +122,11 @@ function App() {
           </div>
         </div>
 
-        <div class="items background1">
+        <div class="items ">
           <div class="product">
             <a href="https://www.wowhead.com/item=93669/gusting-grimoire" target="_blank">
               <img class="imgitem"src={book}  />
             </a>
-            <div class="stockText">3 IN STOCK</div>
           </div>
           <div class="itemInfo">
             <div class="itemName">Gusting Grimoire</div>
@@ -146,12 +141,11 @@ function App() {
           </div>
         </div>
 
-        <div class="items background1">
+        <div class="items ">
           <div class="product">
             <a href="https://www.wowhead.com/item=71624/purple-puffer" target="_blank">
               <img class="imgitem" src={fish}/>
             </a>
-            <div class="stockText">1 IN STOCK</div>
           </div>
           <div class="itemInfo">
             <div class="itemName">Purple Puffer</div>
@@ -166,12 +160,11 @@ function App() {
           </div>
         </div>
 
-        <div class="items background1">
+        <div class="items ">
           <div class="product">
             <a href="https://www.wowhead.com/item=79744/eye-of-the-legion" target="_blank">
               <img class="imgitem" src={legioneye} />
             </a>
-            <div class="stockText">1 IN STOCK</div>
           </div>
           <div class="itemInfo">
             <div class="itemName">Eye of the Legion</div>
@@ -186,12 +179,11 @@ function App() {
           </div>
         </div>
 
-        <div class="items background1">
+        <div class="items ">
           <div class="product">
             <a href="https://www.wowhead.com/item=72134/grell-moss" target="_blank">
               <img class="imgitem" src={grell} />
             </a>
-            <div class="stockText">1 IN STOCK</div>
           </div>
           <div class="itemInfo">
             <div class="itemName">Grell Moss</div>
