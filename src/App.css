@@ -73,6 +73,7 @@ p{
   font-size: 16px;
   position:absolute;
   left:207px;
+  top:9px;
 }
 
 .buy1{
@@ -85,7 +86,7 @@ p{
   font-size:12px;
   position:relative;
   left:180px;
-  top:27px;
+  top:36px;
 
 }
 
@@ -137,5 +138,5 @@ font-size: clamp(14px, 2.5vw, 24px);
 .payLogo{
   position: absolute;
   left: 231px;
-  top: 5px;
+  top: 15px;
 }
