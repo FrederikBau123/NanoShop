@@ -121,7 +121,7 @@ font-size: clamp(14px, 2.5vw, 24px);
   font-size: 10px;
 }
 .itemName{
- color: rgb(180,75,150);
+ color: rgb(255,147,80);
 }
 .itemLevel{
   color: rgb(255,209,221)
