@@ -12,6 +12,16 @@ import './App.css';
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 
+
+
+function Message(){
+    alert("send to NANO address: nano_1stxssryt1knb3qtqo83dxg9x8scdz4kwbdtq6wf1wpck9qth1qepxznxkpw")
+}
+
+
+
+
+
 function App() {
   return (
     <div class="everything">
@@ -44,7 +54,6 @@ function App() {
 
 
       <div class="allItems">
-
         <div class="items ">
           <div class="product">
             <a href="https://www.wowhead.com/item=38050/soul-trader-beacon" target="_blank">
@@ -59,8 +68,9 @@ function App() {
             <div class="itemUse">Use: Teaches you how to summon this companion.</div>
           </div>
           <div class="payment">
-            <div class="priceText"> $100</div>
-            <a class="buy1" href="https://nowpayments.io/payment/?iid=5185635713" target="_blank"> Pay with NANO</a>
+            <div class="priceText"> 30 NANO</div>
+            <img class="payLogo" src={nano} width="32" height="12" />
+            <button class="buy1" onClick={Message} > Pay with NANO</button>
           </div>
         </div>
 
@@ -78,8 +88,9 @@ function App() {
             <div class="itemUse">Use: Teaches you how to summon this companion.</div>
           </div>
           <div class="payment">
-            <div class="priceText"> $75 </div>
-            <a class="buy1" href="https://nowpayments.io/payment/?iid=5914552463" target="_blank"> Pay with NANO</a>
+            <div class="priceText"> 20 </div>
+            <img class="payLogo" src={nano} width="32" height="12" />
+            <button class="buy1" onClick={Message} > Pay with NANO</button>
           </div>
         </div>
 
@@ -98,8 +109,9 @@ function App() {
             <div class="itemUse">Use: Teaches you how to summon this companion.</div>
           </div>
           <div class="payment">
-            <div class="priceText"> $25 </div>
-            <a class="buy1" href="https://nowpayments.io/payment/?iid=4512806064" target="_blank"> Pay with NANO</a>
+            <div class="priceText"> 10 </div>
+            <img class="payLogo" src={nano} width="32" height="12" />
+            <button class="buy1" onClick={Message} > Pay with NANO</button>
           </div>
         </div>
 
@@ -117,8 +129,9 @@ function App() {
             <div class="itemUse">Use: Teaches you how to summon this companion.</div>
           </div>
           <div class="payment">
-            <div class="priceText"> $25 </div>
-            <a class="buy1" href="https://nowpayments.io/payment/?iid=5508490419" target="_blank"> Pay with NANO</a>
+            <div class="priceText"> 10 </div>
+            <img class="payLogo" src={nano} width="32" height="12" />
+            <button class="buy1" onClick={Message} > Pay with NANO</button>
           </div>
         </div>
 
@@ -136,8 +149,9 @@ function App() {
             <div class="itemUse">Use: Teaches you how to summon this companion.</div>
           </div>
           <div class="payment">
-            <div class="priceText"> $15 </div>
-            <a class="buy1" href="https://nowpayments.io/payment/?iid=5232693282" target="_blank"> Pay with NANO</a>
+            <div class="priceText"> 10 </div>
+            <img class="payLogo" src={nano} width="32" height="12" />
+            <button class="buy1" onClick={Message} > Pay with NANO</button>
           </div>
         </div>
 
@@ -155,8 +169,9 @@ function App() {
             <div class="itemUse">Use: Teaches you how to summon this companion.</div>
           </div>
           <div class="payment">
-            <div class="priceText"> $20 </div>
-            <a class="buy1" href="https://nowpayments.io/payment/?iid=5035448460" target="_blank"> Pay with NANO</a>
+            <div class="priceText"> 10 </div>
+            <img class="payLogo" src={nano} width="32" height="12" />
+            <button class="buy1" onClick={Message} > Pay with NANO</button>
           </div>
         </div>
 
@@ -174,8 +189,9 @@ function App() {
             <div class="itemUse">Use: Teaches you how to summon this companion.</div>
           </div>
           <div class="payment">
-            <div class="priceText"> $20 </div>
-            <a class="buy1" href="https://nowpayments.io/payment/?iid=6415305870" target="_blank"> Pay with NANO</a>
+            <div class="priceText"> 10 </div>
+            <img class="payLogo" src={nano} width="32" height="12" />
+            <button class="buy1" onClick={Message} > Pay with NANO</button>
           </div>
         </div>
 
@@ -193,8 +209,9 @@ function App() {
             <div class="itemUse">Use: Teaches you how to summon this companion.</div>
           </div>
           <div class="payment">
-            <div class="priceText"> $20 </div>
-            <a class="buy1" href="https://nowpayments.io/payment/?iid=5114408936" target="_blank"> Pay with NANO</a>
+            <div class="priceText"> 10 </div>
+            <img class="payLogo" src={nano} width="32" height="12" />
+            <button class="buy1" onClick={Message} > Pay with NANO</button>
           </div>
         </div>
 

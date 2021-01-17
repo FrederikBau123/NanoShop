@@ -134,3 +134,8 @@ font-size: clamp(14px, 2.5vw, 24px);
 .itemUse{
   color: rgb(30,255,0);
 }
+.payLogo{
+  position: absolute;
+  left: 231px;
+  top: 5px;
+}
